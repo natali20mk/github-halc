@@ -428,8 +428,8 @@ Hero
 		.subscribe h1 { color: #fff; margin-bottom: 40px; }
 		.subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 		.subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
-		.subscribe input[type=submit] { background: rgba(61, 201, 179, 0.5); border: solid 1px rgba(61, 201, 179, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-		.subscribe input[type=submit]:hover { background: rgba(61, 201, 179, 1); border: solid 1px rgba(61, 201, 179, 1); color: #fff; }
+		.subscribe input[type=submit] { background: rgba(100, 35, 30, 0.5); border: solid 1px rgba(100, 35, 30, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+		.subscribe input[type=submit]:hover { background: rgba(100, 35, 30, 1); border: solid 1px rgba(100, 35, 30, 1; color: #fff; }
 		/* ==========================================================================
 		CTA
 		========================================================================== */
@@ -457,3 +457,28 @@ Hero
 		ul.legals li:last-child::after { content: ""; }
 		.legals { text-align: left; }
 		.credit { text-align: right; }
+		.footer-midcol { margin-left: auto; margin-right: auto; }
+		.footer-midcol ul { text-align: center; padding: 0; }
+		.footer-midcol li { list-style: none; display: inline-block; margin-right: 15px; }
+		.footer-midcol li a { opacity: 1; }
+		.footer-midcol li a:hover { opacity: 0.5; }
+		.twitter-icon { background: url(../img/twitter-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
+		.facebook-icon { background: url(../img/facebook-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
+		.pintrest-icon { background: url(../img/pintrest-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
+
+		/* ==========================================================================
+		Team
+		========================================================================== */
+		.team img { margin-bottom: 40px; }
+		ul.social-buttons { list-style: none; margin: 0; padding: 0; }
+		ul.social-buttons li { display: inline-block; margin-right: 10px; }
+		ul.social-buttons li:last-child { margin-right: 0; }
+		.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
+		.social-btn:hover, .social-btn:focus { background: #3dc9b3; color: #fff; }
+		.social { margin-top: 25px }
+		/* ==========================================================================*/
+		footer { background-color: #f7f7f7; padding: 100px 0; }
+		footer p { font-size: 13px; margin: 0; }
+		.footer-leftcol p { text-align: left; }
+		.footer-rightcol p { text-align: right; font-style: italic; margin-top: 20px; }
+		.bold-16p { font-size: 15px; font-weight: 600; }
